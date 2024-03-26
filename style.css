@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero-img{
+    background-image: url(four0.jpg);
+    min-height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-text{
+    font-size: 40px;
+    color: rgb(252, 239, 239);
+    font-weight: 300px;
+    padding: 80px 60px 120px 290px ;/*top right bottm left*/
+}
+.minit{
+    font-size: 20px;
+}
+.sectwo{
+    font-size: 50px;
+    padding:20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.work{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    max-width: 360px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 30px;
+    border:2px solid rgb(160, 149, 149);
+    padding: 20px;
+    transition: 0.2s ease-in-out;
+}
+.card:hover{
+    border:2px solid black;
+    transform: scale(1.04);
+    transition: 0.2s ease-in-out;
+}
+.card-image{
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding-bottom: 10px;
+}
+.card-content h4{
+    margin-bottom: 10px;
+    font-weight: 400px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    background-color: green;
+    padding: 10px;
+}
+.about{
+    background-color: brown;
+    padding:10px ;
+}
+.contact,
+.about{
+    padding:32px;
+    color: white;
+    max-height: 300px;
+}
+.footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
